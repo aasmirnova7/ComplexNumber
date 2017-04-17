@@ -94,7 +94,7 @@ public class ComplexNumberImpl implements ComplexNumber {
     }
 
     @Override
-    public ComplexNumber clone() throws CloneNotSupportedException { //не уверена!
+    public ComplexNumber clone() throws CloneNotSupportedException { 
         ComplexNumber obj = (ComplexNumberImpl) super.clone();
         return obj;
     }
